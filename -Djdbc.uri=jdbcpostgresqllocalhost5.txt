@@ -1,0 +1,13 @@
+-Djdbc.uri=jdbc:postgresql://localhost:5432/swen90007_react_example
+-Djdbc.username=swen90007_react_example_owner
+-Djdbc.password=Wq727398
+-Dcors.origins.ui=http://localhost:3000
+
+
+
+
+-Djdbc.uri=jdbc:postgresql://dpg-cjip8q337aks73bvbghg-a.singapore-postgres.render.com/swen90007_react_example_dca1
+-Djdbc.username=swen90007_react_example_owner
+-Djdbc.password=BaQTv03Rld60VVmTO5RXsY9TBybgdjzD
+-Dcors.origins.ui=http://localhost:3000
+
