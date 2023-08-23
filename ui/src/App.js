@@ -12,10 +12,12 @@ function App() {
     try {
       console.log(API_BASE_URL)
       const res = await fetch(
-        /* `${API_BASE_URL}/test`, */
-        `http://localhost:8080/react_example_api_war_exploded/test`
+         `${API_BASE_URL}/test`, 
+         console.log(`${API_BASE_URL}/test`)
+        /* `http://localhost:8080/react_example_api_war_exploded/test` */
       );
       if (res.status > 299) {
+        console.log(`${API_BASE_URL}/test`)
         setData(`woops! bad response status ${res.status} from API`);
         return;
       }
